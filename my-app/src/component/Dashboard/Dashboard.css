@@ -1,0 +1,60 @@
+.left-dashboard-medc {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.left-dashboard-medc .one {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+}
+.panel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+  justify-content: space-around;
+}
+.panel-list .panel {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.one .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+}
+.logo h1 {
+  font-size: 2rem;
+  color: rgb(26, 68, 194);
+  font-weight: 800;
+}
+li {
+  list-style: none;
+  font-size: 14px;
+}
+
+.dashboard-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+.dashboard-bottom .help {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.5rem;
+}
+.dashboard-bottom .logout {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.5rem;
+}
