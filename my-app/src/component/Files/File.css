@@ -1,0 +1,29 @@
+.card-file{
+    background-color: white;
+    border-radius: 9px;
+    height: 500px;
+}
+.file-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  padding-top: 5px;
+
+}
+p{
+    cursor: pointer;
+}
+.file-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+}
+.file-title h1{
+    font-size: 1rem;
+    font-weight: 800;
+}
+.file-right p{
+    color: rgb(26, 68, 194);
+    font-weight: 800;
+}

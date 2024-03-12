@@ -1,0 +1,61 @@
+ .search-bar{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.search-bar input{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+
+}
+.search-bar .search-icon{
+    background-color:rgb(26, 68, 194);
+    border-radius: 5px;
+}
+
+ .header-date{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    border-radius: 3px;
+}
+ .header-right {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.header-right .bell{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 30px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right .mail{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 30px;
+    background-color:rgb(26, 68, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+    width: 3rem;
+}
+.profile img{
+   height: 3.5rem;
+   width: 3rem;
+    border-radius: 30px;
+}

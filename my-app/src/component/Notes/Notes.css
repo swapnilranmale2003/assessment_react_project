@@ -1,0 +1,81 @@
+.notes-card
+{
+    height: 500px;
+    border-radius: 9px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.notes-head{
+   display: flex;
+   width: 90%;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   padding-top: 15px;
+}
+.notes-head h1{
+   font-size: 1rem;
+   font-weight: 800;
+}
+.notes-head a{
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 800;
+
+ }
+
+ .notes-hero{
+    width: 85%;
+    background-color: rgba(247, 235, 235, 0.593);
+    margin: 0 auto;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+ }
+ .notes-hero p{
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 15px;
+ }
+ .notes-btn{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+ .notes-user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .notes-user .patient-name{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+ .patient-name {
+    display: flex;
+    gap: 1rem;
+ }
+
+ .patient-name p{
+    color: gray;
+ }
+ .patient-date p{
+    color: gray;
+ }
+  
+ .current-notes {
+    width: 90%;
+    margin: 0 auto;
+ }
+ .current-notes h1{
+    font-size: 1rem;
+    font-weight: bold;
+ }

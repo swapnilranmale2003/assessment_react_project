@@ -1,0 +1,73 @@
+/* Profile.css */
+
+.left {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    height: 500px;
+    border-radius: 9px;
+    justify-content: center;
+}
+
+.card .row .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left .appointments {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.desc h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.ap-title {
+    font-size: 1.5rem;
+}
+
+.appointments .past,
+.appointments .upcoming {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-post {
+    color: gray;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+/* .user-details{
+    margin: 0 auto;
+    width: 100%;
+} */
+.firstsection input{
+   width: 180px;
+   border: none;
+   
+
+}
+.firstsection label{
+    color: gray;
+}
+.right{
+    max-width: 100%;
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}

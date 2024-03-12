@@ -1,0 +1,41 @@
+.payment-cart{
+    background-color: white;
+    border-radius: 9px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.pay-title h1{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.payment-heading{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-weight: bold;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.products p::before{
+    content: "*";
+    color: red;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bill{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-weight: bold;
+}

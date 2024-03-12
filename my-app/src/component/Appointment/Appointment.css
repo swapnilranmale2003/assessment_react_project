@@ -1,0 +1,79 @@
+.appointment-card {
+  height: 387px;
+  background-color: white;
+  border-radius: 9px;
+}
+.apn-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.apn-header .apn-link {
+  width: 50%;
+  display: flex;
+}
+.apn-link ul {
+  display: flex;
+  background-color: rgba(244, 229, 229, 0.697);
+  width: 100%;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.apn-link ul li {
+  padding: 1rem;
+}
+.dr-information{
+    background-color: rgba(244, 229, 229, 0.697);
+    border-radius: 6px;
+   
+   
+}
+.row-2 {
+    
+    background-color: white;
+    height: 82%;
+    width: 98%;
+    margin: auto;
+}
+.doctor-one{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.doctor-one h1{
+   font-size: 1rem;
+   color: gray;
+}
+
+.doctor-one p{
+    color: black;
+    font-weight: 800;
+ }
+ .doctor-two{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.doctor-two h1{
+   font-size: 1rem;
+   color: gray;
+}
+
+.doctor-two p{
+    color: black;
+    font-weight: 800;
+ }
+
+ .dash{
+    height: 4px;
+    width: 100%;
+    background-color: rgb(42, 73, 167);
+ }

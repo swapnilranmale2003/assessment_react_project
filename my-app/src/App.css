@@ -7,10 +7,10 @@ body {
   padding: 0;
 }
 .row .col-md-1 {
-  height: 80vh;
+  height: 100vh;
   background-color: #ffff;
 }
 .row .col-md-11 {
-  height: 80vh;
-  background-color: red;
+  height: 100vh;
+  background-color: rgb(243, 240, 238);
 }

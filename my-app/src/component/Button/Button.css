@@ -1,0 +1,12 @@
+button{
+    background-color:rgb(26, 68, 194);
+    width:200px;
+    color: white;
+    font-weight: bold;
+    height: 3rem;
+    border-radius: 9px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
