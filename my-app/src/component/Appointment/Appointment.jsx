@@ -2,6 +2,9 @@ import React from "react";
 import "./Appointment.css";
 import Button from "../Button/Button";
 function Appointment() {
+  const addAppointment=()=>{
+    console.log("clicked");
+  }
   return (
     <div>
       <div className="appointment-card">
@@ -14,7 +17,7 @@ function Appointment() {
             </ul>
           </div>
           <div className="apn-btn">
-            <Button name="Add appointment" />
+            <Button onClick={addAppointment} name="Add appointment" />
           </div>
         </div>
         <div className="row-2">

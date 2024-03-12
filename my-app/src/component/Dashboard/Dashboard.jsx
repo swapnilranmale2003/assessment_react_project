@@ -9,6 +9,7 @@ import { FiUserCheck } from "react-icons/fi";
 import { CiCircleAlert } from "react-icons/ci";
 import { FiLogOut } from "react-icons/fi";
 import "./Dashboard.css";
+import { Link } from "react-router-dom";
 function Dashboard() {
   return (
     <IconContext.Provider value={{ color: "gray", size: "1.5rem" }}>
@@ -22,7 +23,7 @@ function Dashboard() {
           <div className="panel-list">
             <div className="panel">
               <MdOutlineSpaceDashboard />
-              <li>Dashboard</li>
+              <Link to="/dash">Dashboard</Link>
             </div>
             <div className="panel">
               <FiUserCheck />
