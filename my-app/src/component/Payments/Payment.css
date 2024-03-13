@@ -1,41 +1,78 @@
-.payment-cart{
-    background-color: white;
+.payment-card{
+    width: 400px;
+    background-color: #fff;
     border-radius: 9px;
-    height: 40vh;
+    height: 90%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: space-around;
 }
-.pay-title h1{
+.payment-card h1{
+    font-size: 1.5rem;
+    width: 300px;
+    margin: 0 auto;
+    font-weight: 800;
+}
+.payment-header{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.payment-header h5{
+    color: gray;
     font-size: 1rem;
     font-weight: 800;
 }
-
-.payment-heading{
+.transaction-details{
     display: flex;
+    width: 300px;
+    align-items: center;
     justify-content: space-between;
-    color: gray;
-    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
-.products{
+.transaction-name{
     display: flex;
-    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.name{
+    display: flex;
+    gap: 9px;
     justify-content: center;
-    
-}
-.products p::before{
-    content: "*";
-    color: red;
-}
-
-.item{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
-.bill{
+.payment-bottom{
     display: flex;
+    width: 300px;
+    align-items: center;
     justify-content: space-between;
-    color: gray;
-    font-weight: bold;
+    margin: 0 auto;
 }
+.payment-bottom h5{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+
+.transaction-details {
+    position: relative;
+  }
+  
+  .transaction-details::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px; /* Adjust the positioning to add some top margin */
+    height: 1px;
+    background-color: rgba(120, 114, 114, 0.486);
+  }
