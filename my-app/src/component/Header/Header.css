@@ -1,60 +1,73 @@
- .search-bar{
+/* Define styles for the search bar */
+.search-bar {
     display: flex;
     background-color: white;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
 }
-.search-bar input{
+
+.search-bar input {
     height: 40px;
     display: flex;
     align-items: center;
     border: none;
-
 }
-.search-bar .search-icon{
-    background-color:rgb(26, 68, 194);
+
+.search-bar .search-icon {
+    background-color: rgb(26, 68, 194);
     border-radius: 5px;
 }
 
- .header-date{
+/* Define styles for the header date */
+.header-date {
     display: flex;
     align-items: center;
     background-color: white;
     justify-content: center;
     border-radius: 3px;
 }
- .header-right {
+
+/* Define styles for the header right section */
+.header-right {
     height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
 }
-.header-right .bell{
+
+.header-right .bell {
     height: 3rem;
     width: 3rem;
     border-radius: 30px;
-    background-color:white;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header-right .mail{
+.header-right .mail {
     height: 3rem;
     width: 3rem;
     border-radius: 30px;
-    background-color:rgb(26, 68, 194);
+    background-color: rgb(26, 68, 194);
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Define styles for the profile section */
 .profile {
     width: 3rem;
 }
-.profile img{
-   height: 3.5rem;
-   width: 3rem;
+
+.profile img {
+    height: 3.5rem;
+    width: 3rem;
     border-radius: 30px;
+}
+
+.date-col::after{
+    display: none;
 }

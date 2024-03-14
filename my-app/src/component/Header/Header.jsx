@@ -26,7 +26,7 @@ function Header() {
             />
             <CiSearch color="white" size={"2rem"} className="search-icon" />
           </div>
-          <div className="col-md-2 header-date">{formattedDate}</div>
+          <div className="col-md-2 date-col header-date">{formattedDate}</div>
  
           <div className="col-md-5 header-right">
             <Tippy placement="left" delay={1000} content={"Notification"}>

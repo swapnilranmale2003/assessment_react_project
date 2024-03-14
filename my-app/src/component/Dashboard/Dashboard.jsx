@@ -23,7 +23,7 @@ function Dashboard() {
           <div className="panel-list">
             <div className="panel">
               <MdOutlineSpaceDashboard />
-              <Link to="/dash">Dashboard</Link>
+              <li>Dashboard</li>
             </div>
             <div className="panel">
               <FiUserCheck />

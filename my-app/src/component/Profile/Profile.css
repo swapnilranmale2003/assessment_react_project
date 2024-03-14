@@ -1,73 +1,100 @@
-/* Profile.css */
+
 
 .left {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .card {
-    height: 500px;
-    border-radius: 9px;
-    justify-content: center;
+  height: 500px;
+  border-radius: 9px;
+  justify-content: center;
 }
 
 .card .row .left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .left .appointments {
-    display: flex;
-    gap: 1rem;
-    width: 100%;
-    justify-content: space-around;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
-
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+.desc p{
+    color: gray;
+    font-size: 18px;
+ }
 .desc h1 {
-    font-size: 2rem;
-    font-weight: 800;
+  font-size: 2rem;
+  font-weight: 800;
 }
 
 .ap-title {
-    font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .appointments .past,
 .appointments .upcoming {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-post {
-    color: gray;
+  color: gray;
 }
 
-.firstsection{
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstsection input {
+  width: 180px;
+  border: none;
+}
+.firstsection label {
+  color: gray;
+}
+.right {
+  max-width: 100%;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.appointments {
     display: flex;
-    justify-content: space-around;
-    
-
-}
-/* .user-details{
-    margin: 0 auto;
-    width: 100%;
-} */
-.firstsection input{
-   width: 180px;
-   border: none;
-   
-
-}
-.firstsection label{
-    color: gray;
-}
-.right{
-    max-width: 100%;
-}
-.user-details{
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-}
+    align-items: center;
+  }
+  
+  .past {
+    margin-right: 20px; 
+  }
+  
+  .upcoming {
+    margin-left: 20px; 
+  }
+  
+  .past::after {
+    content: "";
+    position: absolute;
+    height: 20%;
+    width: 2px;
+    background-color: rgba(135, 135, 135, 0.776); 
+    right: calc(100% + 10px); 
+    top: 10;
+    left: 23%;
+  }
+  .send-msg-btn{
+    margin-top: 40px;
+  }

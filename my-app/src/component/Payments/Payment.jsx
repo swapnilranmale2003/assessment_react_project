@@ -58,7 +58,7 @@ function Payment() {
         </div>
         <div className="three">
           <div className="payment-bottom">
-            <div className="total-amount"><h5>Total Amount</h5></div>
+            <div className="total-amount"><h5>Total Amount:</h5></div>
             <div className="total"><h5>90 $</h5></div>
           </div>
         </div>

@@ -1,81 +1,92 @@
-.notes-card
-{
-    height: 500px;
-    border-radius: 9px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    
+.notes-card {
+  height: 500px;
+  border-radius: 9px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.notes-head{
-   display: flex;
-   width: 90%;
-   justify-content: space-between;
-   align-items: center;
-   margin: 0 auto;
-   padding-top: 15px;
+.notes-head {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 15px;
 }
-.notes-head h1{
-   font-size: 1rem;
-   font-weight: 800;
+.notes-head h1 {
+  font-size: 1rem;
+  font-weight: 800;
 }
-.notes-head a{
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: 800;
-
- }
-
- .notes-hero{
-    width: 85%;
-    background-color: rgba(247, 235, 235, 0.593);
-    margin: 0 auto;
-    border-radius: 9px;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
- }
- .notes-hero p{
-    line-height: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0 15px;
- }
- .notes-btn{
-    display: flex;
-    justify-content: flex-end;
-    
+.notes-head a {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 800;
 }
 
- .notes-user{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
- }
- .notes-user .patient-name{
-    display: flex;
-    align-items: center;
-    gap: 3px;
+.notes-hero {
+  width: 90%;
+  background-color:#f5f5f5;
+  margin: 0 auto;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: space-around;
 }
- .patient-name {
-    display: flex;
-    gap: 1rem;
- }
+.notes-hero p {
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 15px;
+}
+.notes-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
 
- .patient-name p{
-    color: gray;
- }
- .patient-date p{
-    color: gray;
- }
+.notes-user {
+  display: flex;
   
- .current-notes {
-    width: 90%;
-    margin: 0 auto;
- }
- .current-notes h1{
-    font-size: 1rem;
-    font-weight: bold;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.notes-user .patient-name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.patient-name {
+  display: flex;
+}
+
+.patient-name p {
+  color: gray;
+  font-size: 14px;
+}
+.patient-date p {
+  color: gray;
+  font-size: 14px;
+
+}
+
+.current-notes {
+  width: 90%;
+  margin: 0 auto;
+}
+.current-notes h1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.save-btn {
+   width: 100px !important;
+   color: white;
+   font-weight: 600;
+   height: 40px;
+   padding: 5px;
+   font-size: 14px;
  }

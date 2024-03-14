@@ -17,7 +17,7 @@ function Profile() {
             </div>
             <div className="desc">
               <h1>Lorem, ipsum</h1>
-              <p>example@gmail.com</p>
+              <p>example1234@gmail.com</p>
             </div>
             <h1 className="ap-title">Appointments</h1>
             <div className="appointments">

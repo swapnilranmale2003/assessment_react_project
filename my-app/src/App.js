@@ -29,7 +29,7 @@ function App() {
                 <div className="col-md-3">
                   <Notes />
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 ">
                   <File />
                 </div>
               </div>

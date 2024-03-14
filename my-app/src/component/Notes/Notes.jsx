@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+
 import { FiUser } from "react-icons/fi";
 
 import "./Notes.css";
@@ -17,16 +17,16 @@ function Notes() {
         </div>
         <div className="notes-hero">
           <div className="parahraph">
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p>
+            <p>- Lorem ipsum dolor sit amet consectetur.</p>
+            <p>-
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
               hic!
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p>Lorem ipsum dolor sit.</p>
+            <p> - Lorem ipsum dolor sit amet consectetur.</p>
+            <p>-Lorem ipsum dolor sit.</p>
           </div>
           <div className="notes-btn">
-            <Button name="Save note" />
+           <button className="btn  btn-primary save-btn">Save Notes</button>
           </div>
         </div>
 
