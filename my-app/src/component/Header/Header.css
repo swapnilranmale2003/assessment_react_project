@@ -70,4 +70,48 @@
 
 .date-col::after{
     display: none;
+
+}
+.col-md-auto{
+        color: rgb(66, 65, 65);
+        width: 260px;
+        margin-right: 140px;
+        font-weight: 500;
+}
+.breadc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.b-left{
+     padding-top: 10px;
+}
+.bread-btn{
+    display: flex;
+    gap: 2rem;
+
+}
+.print{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    color: gray ;
+}
+.edit-patient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    color: gray;
+    gap: 12px;
+    font-weight: 600;
+
 }
